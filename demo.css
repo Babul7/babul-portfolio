@@ -1,0 +1,45 @@
+/* .swiper {
+    width: 650px;
+    height: 300px;
+} */
+
+/* .swiper-slide-active {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, rgb(238 210 255), skyblue);
+    padding: 2rem 0rem;
+} */
+
+.swiper-wrapper {
+    left: 22rem;
+    padding: 3rem 1rem;
+}
+
+.swiper-pagination-bullet-active {
+    background: orange !important;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    width: 35rem;
+    height: 12rem;
+    /* styles same as works.css */
+    background: rgba(255, 255, 255, 0.26);
+    border: 7px solid #DDF8FE;
+    box-shadow:  0px 19px 60px rgb(0 0 0 / 8%);
+    border-radius: 20px;
+}
+
+img {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+}
+
+span {
+    color:  #788097;
+}
